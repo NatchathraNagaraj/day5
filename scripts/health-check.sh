@@ -16,6 +16,7 @@ whoami
 echo ""
 echo "Disk Usage:"
 df -h /
+modified
 
 echo ""
 echo "Memory Usage:"
