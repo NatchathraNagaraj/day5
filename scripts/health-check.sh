@@ -31,3 +31,7 @@ ss -tuln
 
 echo ""
 echo "Health check completed."
+
+echo ""
+echo "Kernel:"
+uname -r
