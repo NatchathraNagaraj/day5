@@ -1,0 +1,7 @@
+.env
+*.log
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+node_modules/
+__pycache__/
