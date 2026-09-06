@@ -14,5 +14,3 @@ jobs:
       - name: Run application
         run: ./app.sh
 
-      - name: Test Failure
-        run: exit 1
