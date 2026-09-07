@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Check app.sh
-        uses: bash -n app.sh
+        run: bash -n app.sh
 
       - name: Run application
         run: ./app.sh

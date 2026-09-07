@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "DevOps CI Challenge"
-echo "Build successful!"
+echo "Build successful!
 echo "Running on:"
 uname -a
 
