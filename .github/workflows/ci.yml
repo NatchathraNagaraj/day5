@@ -16,4 +16,7 @@ jobs:
 
       - name: Run application
         run: ./app.sh
-
+      - name: Test application output
+        run: |
+          ./app.sh > output.txt
+          grep -q "DevOps" output.txt
