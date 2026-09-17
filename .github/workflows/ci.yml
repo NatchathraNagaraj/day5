@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Check app.sh
-        run: bash -n app.sh
+        run: bash -n run-container.sh
 
       - name: Build application
         run: docker build -t devops-task-manager .
