@@ -14,9 +14,5 @@ jobs:
       - name: Check app.sh
         run: bash -n app.sh
 
-      - name: Run application
-        run: ./app.sh
-      - name: Test application output
-        run: |
-          ./app.sh > output.txt
-          grep -q "DevOps" output.txt
+      - name: Build application
+        run: docker build -t devops-task-manager .

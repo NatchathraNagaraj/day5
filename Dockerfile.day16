@@ -1,0 +1,9 @@
+FROM ubuntu:latest
+
+WORKDIR /app
+
+COPY container-info.sh .
+
+RUN chmod +x container-info.sh
+
+CMD ["./container-info.sh"]
